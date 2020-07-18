@@ -1,0 +1,5 @@
+1) Write a program to show the min and max value of datatypes (Byte, Short, Integer, Long, Float, Double). (Refer Wrapper Class Methods)
+2) Write a program to get a binary, octal and hexdecimal representation of numbers - 10, 18, 5, 20. (Refer Wrapper Class Methods)
+3) Write a program to get a binary representation of number (refer que. 2) for numbers) and also replace all 0's in binary representaion with spaces. (Refer Wrapper Class Methods)
+4) Write a program to convert primitive datatypes into Wrapper objects and show their binary and octal strings. (Refer Wrapper Class Methods)
+5) Write a program to convert two values from Wrapper Class to primitive datatype and access each value in one instance method and one static method and access instance method by creating object and access static method without any object.

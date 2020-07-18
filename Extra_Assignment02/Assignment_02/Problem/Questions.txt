@@ -1,0 +1,111 @@
+1) The following program has several errors. Modify the program so that it will
+compile and run without errors.
+
+
+PUBLIC CLASS temperature {
+	PUBLIC void main(string args) {
+		double fahrenheit = 62.5;
+*/ Convert /*
+		double celsius = f2c(fahrenheit);
+		System.out.println(fahrenheit + ‘F’ + ” = ” + Celsius + ‘C’);
+	}
+
+double f2c(float fahr) {
+	
+	RETURN (fahr - 32.0) * 5.0 / 9.0;
+	}
+}
+
+----------------------------------------------------------------------------------------------------------------------------------
+
+2)Which statements, when inserted at (1), will not result in compile-time errors?
+
+public class ThisUsage {
+	int planets;
+	static int suns;
+	
+	public void gaze() {
+		int i;
+// (1) INSERT STATEMENT HERE
+	}
+}
+
+Select the three correct answers.
+(a) i = this.planets;
+(b) i = this.suns;
+(c) this = new ThisUsage();
+(d) this.i = 4;
+(e) this.suns = planets;
+
+
+----------------------------------------------------------------------------------------------------------------------------------
+
+3)What will be the result of compiling the following program correct the error?
+
+public class MyClass {
+	long var;
+	
+	public void MyClass(long param) { var = param; } //(1)
+
+
+	public static void main(String[] args) {
+		MyClass a, b;
+		a = new MyClass();					//(2)
+		b = new MyClass(5);					//(3)
+	}
+
+}
+
+----------------------------------------------------------------------------------------------------------------------------------
+
+
+4)
+
+
+public class Integer_Parse {
+    public static void main(String args[15]){
+        int value1;
+        float value;
+        if (args.length > 0) {
+            
+            
+                value1 = integer.parseInt(args[0]);
+                value2 = float.parseInt(args[1]);
+                System.out.println("Sum of parameters is : "+(value1+value2));
+            }
+           
+            
+      }
+ }
+----------------------------------------------------------------------------------------------------------------------------------
+
+5)
+
+class Main {
+  public static void main(String[] args) {
+    
+    double num = 10.99;
+    System.out.println("The double value: " + num);
+
+    // convert double  into int type
+
+   
+    System.out.println("The integer value: " + data);
+  
+
+
+// converts int to string type
+    
+   //add your code here
+	System.out.println("The string value is: " + data);
+
+
+String data = "10";
+    System.out.println("The string value is: " + data);
+
+    // convert string variable to int
+    
+   //add your code here
+	System.out.println("The integer value is: " + num);
+  }
+}
