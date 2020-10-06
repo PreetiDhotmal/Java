@@ -1,0 +1,13 @@
+class IfElseDemo{
+
+	public static void main(String[] args){
+
+		int x = 10;
+
+		if(x < 10)			//if(10 == 10) = true
+			System.out.println("In if statement");
+			System.out.println("Hello");
+
+		System.out.println("Out of if");
+	}
+}
